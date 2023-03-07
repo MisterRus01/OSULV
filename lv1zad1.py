@@ -7,4 +7,4 @@ rate = float(input("Unesite cijenu po satu: "))
 
 total = total_euro(hours, rate)
 
-print("Ukupna zarada: ", total, " eura")
+print("Ukupna zarada: ", total, " eura !")
