@@ -1,4 +1,4 @@
-with open("SMSSpamCollection.txt", "r", encoding="utf8") as f:
+with open("SMSSpamCollection.txt", "r") as f:
     masseges = f.readlines()
 
 ham = 0
