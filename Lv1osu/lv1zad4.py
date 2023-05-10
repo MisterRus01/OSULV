@@ -1,7 +1,6 @@
-with open("song.txt", "r") as f:
-    text = f.read()
-    texts = text.split()
-
+f= open("song.txt", "r")
+text = f.read()
+texts = text.split()
 count = {}
 
 for text in texts :
